@@ -98,3 +98,49 @@ h6 {
 }
 .btn {
 }
+
+img {
+  max-width: 100%;
+}
+
+.food-list {
+  padding: 110px 0;
+}
+
+.food-list .container {
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+  gap: 40px 10px;
+}
+
+.food-list_card {
+  width: 260px;
+  background-color: #312f30;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transform: scale(1);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.food-list_card:hover {
+  transform: scale(1.2);
+}
+
+.food-list_img {
+  max-width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
+.food-list_title {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.food-list_desc {
+  font-size: 16;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+}
