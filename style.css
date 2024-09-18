@@ -149,7 +149,10 @@ img {
   background: #312f30;
   padding: 60px 0;
 }
-.container {
+.order .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .order_img {
 }
@@ -178,5 +181,12 @@ img {
   opacity: 0.6;
   color: rgb(255, 94, 0);
 }
-.btn {
+.order_price + .order_price-old {
+  margin-left: 3px;
+}
+
+.order .btn {
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
 }
